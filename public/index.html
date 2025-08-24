@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Profile</title>
+  <title>Allen Russell</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
   <link rel="stylesheet" href="style.css" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"></script>
   <meta name="google-site-verification" content="M_hyx601Hav4EmbHoyAolC86A1coiZkMQlArQfGSI2Y">
+  <link rel="icon" type="image/png" href="images/formal picture.png" />
 
 </head>
 <body>
@@ -29,14 +30,14 @@
 <div class="hero">
   <div class="hero-content">
     <div class="hero-image">
-      <img src="/images/formal picture.png" alt="Profile Picture" />
+      <img src="images/formal picture.png" alt="Profile Picture" />
     </div>
     <div class="hero-text">
       <h1>Allen Russell C. Lagunoy</h1>
-      <p class="tagline">Fresh BSIT Graduate | Aspiring Developer | Passionate about Learning and Growth</p>
+      <p class="tagline">Fresh BSIT Graduate Major in Service Management | Passionate about Learning and Growth</p>
       <div class="socials">
         <a href="https://github.com/allncode" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <!-- <a href="#"><i class="fa-brands fa-linkedin"></i></a> -->
       </div>
         <button class="my-button" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">
           Contact Me
@@ -419,7 +420,7 @@ document.querySelectorAll('.project-card').forEach(card => {
     <ul>
       <li><b>Email:</b> allenlagunoy@gmail.com</li>
       <li><b>Phone:</b> +63 905 311 4967</li>
-      <li><b>LinkedIn:</b> <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></li>
+      <!-- <li><b>LinkedIn:</b> <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></li> -->
       <li><b>GitHub:</b> <a href="https://github.com/allncode" target="_blank">github.com/yourusername</a></li>
     </ul>
   </div>
@@ -482,6 +483,21 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll('.animate').forEach(el => {
     observer.observe(el);
   });
+
+  // Intersection Observer for Contact section
+const contactObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add('active');
+    }
+  });
+}, { threshold: 0.2 });
+
+const contactSection = document.querySelector('.contact-container');
+if(contactSection){
+  contactObserver.observe(contactSection);
+}
+
 </script>
 
 

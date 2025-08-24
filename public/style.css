@@ -423,6 +423,8 @@
   line-height: 1.6;
   margin-bottom: 10px;
   color: #555;
+  text-align: justify;
+
 }
 
 .project-gallery {
@@ -554,6 +556,20 @@
     .contact ul li a:hover {
       color: #ff9800;  /* Hover orange */
     }
+
+    /* Contact Section Animation */
+.contact-container {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out;
+}
+
+.contact-container.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
 
     /* Footer */
     footer {
