@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"></script>
+  <meta name="google-site-verification" content="M_hyx601Hav4EmbHoyAolC86A1coiZkMQlArQfGSI2Y">
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <h1>My Portfolio</h1>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+<!-- Hero Section -->
+<div class="hero">
+  <div class="hero-content">
+    <div class="hero-image">
+      <img src="/images/formal picture.png" alt="Profile Picture" />
+    </div>
+    <div class="hero-text">
+      <h1>Allen Russell C. Lagunoy</h1>
+      <p class="tagline">Fresh BSIT Graduate | Aspiring Developer | Passionate about Learning and Growth</p>
+      <div class="socials">
+        <a href="https://github.com/allncode" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+        <button class="my-button" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">
+          Contact Me
+        </button>
+    </div>
+  </div>
+</div>
+
+<!-- About Section -->
+<section class="about" id="about">
+    <h2>About Me</h2>
+  <p>
+    I am a <b>BSIT fresh graduate from Batangas State University TNEU JPLPC-Malvar Campus</b>, with hands-on
+    experience in both academic and real-world settings. During my internship at the Dean’s Office, I supported
+    the administrative aide in daily tasks such as <b>monitoring, data entry, forwarding, and organizing
+    documents</b>, which strengthened my attention to detail and organizational skills.
+  </p>
+  <p>
+      In the technical field, I have experience with <b>Java, HTML, JavaScript, C++, and Flutter Framework</b>, as
+    well as working with databases like <b>MySQL</b> and <b>Firebase Realtime Database</b>. My soft skills
+    include <b>organizational ability, time management, and problem-solving</b>, which help me stay efficient and
+    adaptable in different work environments.
+  </p>
+  <p>
+      While I prefer working independently, I can easily adapt to collaborative work when required. Outside of
+    technology, I enjoy <b>basketball, online games, and billiards</b>, which keep me active and balanced. As I
+    continue my career journey, I am eager to <b>learn, grow, and take on opportunities</b> that will help me
+    shape a clear professional path.
+  </p>
+  <p class="motto">"Keep learning, keep growing, and success will follow."</p>
+</section>
+
+
+<!-- Skills Section -->
+<section id="skills" class="skills">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+
+    <!-- Hard Skills -->
+    <div class="skill-box animate">
+      <i class="fa-solid fa-code"></i>
+      <h3>Hard Skills</h3>
+      <div class="skills-list">
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+          <span>HTML</span>
+        </div>
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+          <span>CSS</span>
+        </div>
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" />
+          <span>Flutter</span>
+        </div>
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" />
+          <span>Firebase</span>
+        </div>
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" />
+          <span>C++</span>
+        </div>
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+          <span>Java</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Soft Skills -->
+    <div class="skill-box animate">
+      <i class="fa-solid fa-users"></i>
+      <h3>Soft Skills</h3>
+      <ul>
+        <li>Organizational Skills</li>
+        <li>Time Management</li>
+        <li>Problem-Solving</li>
+      </ul>
+    </div>
+
+  </div>
+  <!-- Tools -->
+    <div class="tools-box animate">
+      <i class="fa-solid fa-toolbox"></i>
+      <h3>Tools</h3>
+      <div class="tools-list">
+
+        <div class="tool-item">
+          <a href="https://docs.google.com/" target="_blank">
+            <img src="https://img.icons8.com/color/48/google-docs.png" alt="Google Docs" />
+          </a>
+        </div>
+
+        <div class="tool-item">
+          <a href="https://sheets.google.com/" target="_blank">
+            <img src="https://img.icons8.com/color/48/google-sheets.png" alt="Google Sheets" />
+          </a>
+        </div>
+
+        <div class="tool-item">
+          <a href="https://slides.google.com/" target="_blank">
+            <img src="https://img.icons8.com/color/48/google-slides.png" alt="Google Slides" />
+          </a>
+        </div>
+
+        <div class="tool-item">
+          <a href="https://drive.google.com/" target="_blank">
+            <img src="https://img.icons8.com/color/48/google-drive--v2.png" alt="Google Drive" />
+          </a>
+        </div>
+
+        <div class="tool-item">
+          <a href="https://calendar.google.com/" target="_blank">
+            <img src="https://img.icons8.com/color/48/google-calendar--v2.png" alt="Google Calendar" />
+          </a>
+        </div>
+
+        <div class="tool-item">
+          <a href="https://chat.openai.com/" target="_blank">
+            <img src="https://img.icons8.com/color/48/chatgpt.png" alt="ChatGPT" />
+          </a>
+        </div>
+
+        <div class="tool-item">
+          <a href="https://www.office.com/" target="_blank">
+            <img src="https://img.icons8.com/color/48/microsoft-office-2019.png" alt="MS Office" />
+          </a>
+        </div>
+
+        <div class="tool-item">
+          <a href="https://trello.com/" target="_blank">
+            <img src="https://img.icons8.com/color/48/trello.png" alt="Trello" />
+          </a>
+        </div>
+
+        <div class="tool-item">
+          <a href="https://zoom.us/" target="_blank">
+            <img src="https://img.icons8.com/color/48/zoom.png" alt="Zoom" />
+          </a>
+        </div>
+
+        <div class="tool-item">
+          <a href="https://code.visualstudio.com/" target="_blank">
+            <img src="https://img.icons8.com/color/48/visual-studio-code-2019.png" alt="Visual Studio Code" />
+          </a>
+        </div>
+
+      </div>
+    </div>
+</section>
+
+
+
+<!-- Projects Section -->
+<section id="projects" class="projects">
+  <h2 class="projects-title">Projects</h2>
+
+  <!-- Project 1 -->
+  <div class="project-card">
+    <div class="project-gallery">
+      <!-- First 4 images displayed, rest hidden with +More -->
+      <a href="assets/BSU-Merch/Main.png" class="glightbox" data-gallery="batstateu">
+        <img src="assets/BSU-Merch/Main.png" alt="BatStateU Merch 1">
+      </a>
+      <a href="assets/BSU-Merch/login.png" class="glightbox" data-gallery="batstateu">
+        <img src="assets/BSU-Merch/login.png" alt="BatStateU Merch 2">
+      </a>
+      <a href="assets/BSU-Merch/Register.png" class="glightbox" data-gallery="batstateu">
+        <img src="assets/BSU-Merch/Register.png" alt="BatStateU Merch 3">
+      </a>
+      <a href="assets/BSU-Merch/home.png" class="glightbox" data-gallery="batstateu">
+        <img src="assets/BSU-Merch/home.png" alt="BatStateU Merch 4">
+      </a>
+      <!-- +More overlay -->
+      <div class="more-overlay">
+        +2
+        <div class="more-images">
+          <a href="assets/BSU-Merch/cart.png" class="glightbox" data-gallery="batstateu">
+            <img src="assets/BSU-Merch/cart.png" alt="BatStateU Merch 5">
+          </a>
+          <a href="assets/BSU-Merch/receipt.png" class="glightbox" data-gallery="batstateu">
+            <img src="assets/BSU-Merch/receipt.png" alt="BatStateU Merch 6">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="project-info">
+      <h3>BatStateU | Online Merch</h3>
+      <p><b>Year:</b> 2022 - 2023 (2nd Year Project)</p>
+      <p><b>Programmer</b></p>
+      <p>An e-commerce platform developed for BatStateU students and staff to purchase university merchandise online. Built with <b>HTML, PHP</b>, and <b>MySQL</b> as the database.</p>
+    </div>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="project-card reverse">
+    <div class="project-info">
+      <h3>ETree: Streamlined Faculty Canteen Ordering System</h3>
+      <p><b>Year:</b> 2023 - 2024 (3rd Year Project)</p>
+      <p><b>Programmer</b></p>
+      <p>A web-based canteen ordering system designed for faculty members. It streamlines the ordering process, reduces waiting times, and provides efficient order management for the campus canteen.</p>
+    </div>
+    <div class="project-gallery">
+      <a href="assets/ETree/login.png" class="glightbox" data-gallery="etree">
+        <img src="assets/ETree/login.png" alt="ETree 1">
+      </a>
+      <a href="assets/ETree/home.png" class="glightbox" data-gallery="etree">
+        <img src="assets/ETree/home.png" alt="ETree 2">
+      </a>
+      <a href="assets/ETree/foods.png" class="glightbox" data-gallery="etree">
+        <img src="assets/ETree/foods.png" alt="ETree 3">
+      </a>
+      <a href="assets/ETree/foods2.png" class="glightbox" data-gallery="etree">
+        <img src="assets/ETree/foods2.png" alt="ETree 4">
+      </a>
+      <div class="more-overlay">
+        +4
+        <div class="more-images">
+          <a href="assets/ETree/checkout.png" class="glightbox" data-gallery="etree">
+            <img src="assets/ETree/checkout.png" alt="ETree 5">
+          </a>
+          <a href="assets/ETree/checkout2.png" class="glightbox" data-gallery="etree">
+            <img src="assets/ETree/checkout2.png" alt="ETree 6">
+          </a>
+          <a href="assets/ETree/nav.png" class="glightbox" data-gallery="etree">
+            <img src="assets/ETree/nav.png" alt="ETree 7">
+          </a>
+          <a href="assets/ETree/logout.png" class="glightbox" data-gallery="etree">
+            <img src="assets/ETree/logout.png" alt="ETree 9">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="project-card">
+    <div class="project-gallery">
+      <!-- First 4 images displayed, rest hidden with +More -->
+      <a href="assets\Musify\login.jpg" 
+          class="glightbox" data-gallery="musify">
+          <img src="assets\Musify\login.jpg" alt="Musify 1">
+        </a>
+        <a href="assets\Musify\home.jpg" 
+          class="glightbox" data-gallery="musify">
+          <img src="assets\Musify\home.jpg" alt="Musify 2">
+        </a>
+        <a href="assets\Musify\search.jpg" 
+          class="glightbox" data-gallery="musify">
+          <img src="assets\Musify\search.jpg" alt="Musify 3">
+        </a>
+        <a href="assets\Musify\library.jpg" 
+          class="glightbox" data-gallery="musify">
+          <img src="assets\Musify\library.jpg" alt="Musify 4">
+        </a>
+        <a href="assets\Musify\settings.jpg" 
+          class="glightbox" data-gallery="musify">
+          <img src="assets\Musify\settings.jpg" alt="Musify 5">
+        </a>
+      
+    </div>
+    <div class="project-info">
+      <h3>Musify / Musico</h3>
+      <p><b>Year:</b> 2024 (3rd Year – Summer Class Project)</p>
+      <p>
+        A rushed but functional mobile music application developed with the 
+        Flutter framework. The project allowed exploration of cross-platform 
+        development and rapid prototyping under time constraints.
+      </p>
+    </div>
+  </div>
+
+  <!-- Project 4 -->
+<div class="project-card reverse">
+    <div class="project-info">
+      <h3>TRACK (Timetable & Resource Allocation Calendar Kit)</h3>
+      <p><b>Year:</b> 2024–2025 (Capstone Project)</p>
+      <p>
+        TRACK is a customizable scheduling tool designed for Batangas State University campuses. 
+        It centralizes the management of university events such as seminars, campus activities, and meetings, 
+        improving organization, productivity, and communication. 
+      </p>
+      <p>
+        Key features include hierarchical prioritization of events (with Chancellor-called events given top priority), 
+        appointment scheduling, reminders, and resource allocation. 
+        The system aims to reduce conflicts, minimize missed deadlines, and promote efficiency and accountability 
+        within the university community.
+      </p>
+    </div>
+    <div class="project-gallery">
+      <a href="assets\Track\index.jpg" 
+          class="glightbox" data-gallery="track">
+          <img src="assets\Track\index.jpg" alt="Track">
+        </a>
+        <a href="assets\Track\login.jpg" 
+          class="glightbox" data-gallery="track">
+          <img src="assets\Track\login.jpg" alt="Track">
+        </a>
+        <a href="assets\Track\menu.jpg" 
+          class="glightbox" data-gallery="track">
+          <img src="assets\Track\menu.jpg" alt="Track">
+        </a>
+        <a href="assets\Track\menu2.jpg" 
+          class="glightbox" data-gallery="track">
+          <img src="assets\Track\menu2.jpg" alt="Track">
+        </a>
+      <div class="more-overlay">
+        +7
+        <div class="more-images">
+          <a href="assets\Track\calendar.jpg" 
+          class="glightbox" data-gallery="track">
+          <img src="assets\Track\calendar.jpg" alt="Track">
+        </a>
+        <a href="assets\Track\calendar2.jpg" 
+          class="glightbox" data-gallery="track">
+          <img src="assets\Track\calendar2.jpg" alt="Track">
+        </a>
+        <a href="assets\Track\event details.jpg" 
+          class="glightbox" data-gallery="track">
+          <img src="assets\Track\event details.jpg" alt="Track">
+        </a>
+        <a href="assets\Track\createevent.jpg" 
+          class="glightbox" data-gallery="track">
+          <img src="assets\Track\createevent.jpg" alt="Track">
+        </a>
+        <a href="assets\Track\notification.jpg" 
+          class="glightbox" data-gallery="track">
+          <img src="assets\Track\notification.jpg" alt="Track">
+        </a>
+        <a href="assets\Track\notifications2.jpg" 
+          class="glightbox" data-gallery="track">
+          <img src="assets\Track\notifications2.jpg" alt="Track">
+        </a>
+        <a href="assets\Track\profile.jpg" 
+          class="glightbox" data-gallery="track">
+          <img src="assets\Track\profile.jpg" alt="Track">
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+
+<!-- Lightbox JS -->
+<script>
+  const lightbox = GLightbox({ selector: '.glightbox' });
+// Intersection Observer for project cards
+const projectObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add('active');
+    }
+  });
+}, { threshold: 0.2 });
+
+document.querySelectorAll('.project-card').forEach(card => {
+  projectObserver.observe(card);
+});
+</script>
+
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+  <div class="contact-container">
+    <h2>Contact Me</h2>
+    <p>
+      I am always open to new opportunities, collaborations, or simply a friendly chat. 
+      If you would like to get in touch, feel free to contact me through the details below:
+    </p>
+    <ul>
+      <li><b>Email:</b> allenlagunoy@gmail.com</li>
+      <li><b>Phone:</b> +63 905 311 4967</li>
+      <li><b>LinkedIn:</b> <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></li>
+      <li><b>GitHub:</b> <a href="https://github.com/allncode" target="_blank">github.com/yourusername</a></li>
+    </ul>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Allen Russell C. Lagunoy. All rights reserved.</p>
+  </footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible"); 
+          observer.unobserve(entry.target); // Run only once
+        }
+      });
+    }, { threshold: 0.2 }); // 20% of section visible triggers
+
+    document.querySelectorAll(".about").forEach(section => {
+      observer.observe(section);
+    });
+  });
+
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  // Toggle "See more"
+  document.querySelectorAll(".project-desc").forEach(desc => {
+    desc.addEventListener("click", () => {
+      desc.classList.toggle("expanded");
+      if (desc.classList.contains("expanded")) {
+        desc.setAttribute("data-expanded", "true");
+        desc.querySelector("::after").textContent = "See less";
+      }
+    });
+  });
+
+  // Overlay click triggers lightbox
+  document.querySelectorAll(".more-overlay").forEach(overlay => {
+    overlay.addEventListener("click", () => {
+      overlay.previousElementSibling.click(); // opens the hidden image
+    });
+  });
+});
+</script>
+<script>
+  // Intersection Observer for scroll animation
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add('active');
+      }
+    });
+  }, { threshold: 0.2 });
+
+  document.querySelectorAll('.animate').forEach(el => {
+    observer.observe(el);
+  });
+</script>
+
+
+
+</body>
+</html>
